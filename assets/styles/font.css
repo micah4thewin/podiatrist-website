@@ -1,0 +1,249 @@
+@font-face {
+  font-family: 'sofia_problack';
+  src: url('../fonts/sofia_pro_black_az-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_black_az-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sofia_problack_italic';
+  src: url('../fonts/sofia_pro_black_italic_az-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_black_italic_az-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sofia_probold';
+  src: url('../fonts/sofia_pro_bold_az-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_bold_az-webfont.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sofia_probold_italic';
+  src: url('../fonts/sofia_pro_bold_italic_az-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_bold_italic_az-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sofia_proextralight';
+  src: url('../fonts/sofia_pro_extralight_az-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_extralight_az-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sofia_proextralight_italic';
+  src: url('../fonts/sofia_pro_extralight_italic_az-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_extralight_italic_az-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sofia_prolight';
+  src: url('../fonts/sofia_pro_light_az-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_light_az-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sofia_prolight_italic';
+  src: url('../fonts/sofia_pro_light_italic_az-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_light_italic_az-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sofia_promedium';
+  src: url('../fonts/sofia_pro_medium_az-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_medium_az-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sofia_promedium_italic';
+  src: url('../fonts/sofia_pro_medium_italic_az-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_medium_italic_az-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sofia_proregular';
+  src: url('../fonts/sofia_pro_regular_az-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_regular_az-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sofia_proitalic';
+  src: url('../fonts/sofia_pro_regular_italic_az-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_regular_italic_az-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sofia_prosemibold';
+  src: url('../fonts/sofia_pro_semi_bold_az-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_semi_bold_az-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sofia_prosemibold_italic';
+  src: url('../fonts/sofia_pro_semi_bold_italic_az-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_semi_bold_italic_az-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sofia_proultralight';
+  src: url('../fonts/sofia_pro_ultralight_az-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_ultralight_az-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sofia_proultralight_italic';
+  src: url('../fonts/sofia_pro_ultralight_italic_az-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_ultralight_italic_az-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #6efafb;
+}
+
+div>a {
+  font-family: 'sofia_probold';
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+}
+
+li>a {
+  color: #6efafb;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+}
+
+p>a {
+  color: #6efafb;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-family: 'sofia_probold';
+  font-weight: 900;
+  width: 100%;
+  line-height: 1.5px;
+  letter-spacing: 1.7px;
+  color: #fff;
+  text-rendering: optimizeLegibility;
+}
+
+h2 {
+  font-family: 'sofia_probold';
+  font-weight: 900;
+  line-height: 1.5px;
+  font-size: calc(35px + 1vw);
+  letter-spacing: 1.7px;
+  color: #fff;
+  text-rendering: optimizeLegibility;
+}
+
+#address {
+  font-family: 'sofia_probold';
+  font-weight: 900;
+  line-height: 1.5px;
+  font-size: calc(35px + 1vw);
+  letter-spacing: 1.7px;
+  color: grey;
+  text-rendering: optimizeLegibility;
+}
+
+p {
+  font-family: 'sofia_pro';
+  font-size: 16px;
+  letter-spacing: 1.7px;
+  color: #fff;
+  text-rendering: optimizeLegibility;
+}
+
+#faq {
+  font-family: 'sofia_pro';
+  font-size: 16px;
+  letter-spacing: 1.7px;
+  color: #000;
+  text-rendering: optimizeLegibility;
+}
+
+#description {
+  max-width: 600px;
+  text-rendering: optimizeLegibility;
+}
+
+#firstNav {
+  font-family: 'sofia_probold';
+  font-size: 18px;
+  color: #333333;
+  text-rendering: optimizeLegibility;
+}
+
+#secondNav {
+  font-family: 'sofia_probold';
+  font-size: 16px;
+  font-weight: normal;
+  color: grey;
+  text-rendering: optimizeLegibility;
+}
+
+#firstNav:hover {
+  font-family: 'sofia_probold';
+  font-size: 20px;
+  color: black;
+  text-rendering: optimizeLegibility;
+}
+
+#secondNav:hover {
+  font-family: 'sofia_probold';
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+}
+
+#firstNav:active {
+  font-family: 'sofia_probold';
+  font-size: 18px;
+  color: black;
+  text-rendering: optimizeLegibility;
+}
+
+#secondNav:active {
+  font-family: 'sofia_probold';
+  font-size: 16px;
+  font-weight: bold;
+  color: #0a2239;
+  text-rendering: optimizeLegibility;
+}

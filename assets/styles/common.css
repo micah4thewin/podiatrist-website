@@ -1,0 +1,184 @@
+@font-face {
+  font-family: 'sofia_probold';
+  src: url('../fonts/sofia_pro_bold_az-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_bold_az-webfont.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+#body {
+  background: solid;
+  background-color: #e2e7f3;
+}
+
+#nav {
+  background: solid;
+  background-color: #e2e7f3;
+}
+
+#navTwo {
+  background: solid;
+  background-color: #e2e7f3;
+  border-bottom: solid;
+  border-color: #6efafb;
+  border-width: 3px;
+}
+
+button {
+  border-radius: 20px;
+  font-family: 'sofia_probold';
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1.7px;
+  background: solid;
+  background-color: #027177;
+  border: solid;
+  border-width: 3px;
+  border-color: #6efafb;
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
+}
+
+button:hover {
+  background-color: #03BFC9;
+  border-color: #333333;
+}
+
+button:active {
+  background-color: #03acb5;
+  border-color: #000000;
+}
+
+#jeff {
+  width: auto;
+  max-height: auto;
+  border: solid;
+  border-width: 3px;
+  border-color: #6efafb;
+  background: #e2e7f3;
+  box-shadow: 10px 10px 22px #d0d5e0,
+    -10px -10px 22px #f4f9ff;
+  overflow: none;
+}
+
+#sierraPodiatryImage {
+  border: solid;
+  min-width: 300px;
+  border-width: 3px;
+  border-color: #6efafb;
+  background: #212529;
+  overflow: hidden;
+}
+
+#clinic {
+  border: solid;
+  border-width: 3px;
+  border-color: #6efafb;
+  background: #212529;
+  overflow: none;
+}
+
+#spcFrame {
+  border: solid;
+  max-width: 700px;
+  min-width: 250px;
+  border-width: 3px;
+  border-color: #6efafb;
+  background: #212529;
+  box-shadow: 10px 10px 22px #1c1f23,
+    -10px -10px 22px #262b2f;
+  overflow: none;
+}
+
+#spcFrame2 {
+  border: solid;
+  max-width: 700px;
+  min-width: 250px;
+  border-width: 3px;
+  border-color: #6efafb;
+  background: #212529;
+  box-shadow: 10px 10px 22px #d0d5e0,
+    -10px -10px 22px #f4f9ff;
+  overflow: none;
+}
+
+#clinicFrame{
+  border: solid;
+  width: 700px;
+  border-width: 3px;
+  border-color: #6efafb;
+  background: #212529;
+  box-shadow: 10px 10px 22px #1c1f23,
+    -10px -10px 22px #262b2f;
+  overflow: none;
+}
+
+
+/* FAQ */
+.accordion {
+  border-width: 3px;
+  border: solid;
+  border-radius: 10px;
+  border-color: #6efafb;
+}
+
+.accordion-item {
+  border: solid;
+  border-width: 1px;
+  border-color: grey;
+  border-bottom: none;
+}
+
+.accordion-header {
+  border-bottom: none;
+}
+
+.card {
+  padding: 0px;
+  box-shadow: 10px 10px 22px #d0d5e0,
+    -10px -10px 22px #f4f9ff;
+}
+
+.card>img {
+  width: auto;
+  height: 200px;
+  margin: 0px;
+  object-fit: cover;
+}
+
+#groupImage {
+  border: solid;
+  border-width: 3px;
+  border-color: #6efafb;
+  background: #212529;
+  box-shadow: 10px 10px 22px #1c1f23,
+    -10px -10px 22px #262b2f;
+  overflow: none;
+}
+
+#laserImage {
+  border: solid;
+  max-width: 700px;
+  border-width: 3px;
+  border-color: #6efafb;
+  background: #212529;
+  box-shadow: 10px 10px 22px #1c1f23,
+    -10px -10px 22px #262b2f;
+  overflow: none;
+}
+#laser {
+  overflow: none;
+}
+
+#contactImage {
+  border: solid;
+  border-bottom: none;
+  border-width: 3px;
+  border-color: #6efafb;
+  background: #212529;
+  box-shadow: 10px 10px 22px #d0d5e0,
+    -10px -10px 22px #f4f9ff;
+  overflow: none;
+}
