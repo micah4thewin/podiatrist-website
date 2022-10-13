@@ -1,7 +1,10 @@
-# sierrapodiatry
+# Sierra Podiatry
 
 
-<h1>Sierra Podiatry Public Website</h1>
-<p>This is a front end website designed for Sierra Podiatry by Micah.</p>
+## Sierra Podiatry Website
 
-<a href="https://micah4thewin.github.io/sierrapodiatry/" target="_blank" alt="Sierra Podiatry">Visit on github pages</a>
+This website was commissioned by Sierra Podiatry and is currently being served by their domain by me. 
+
+[Preview it](https://micah4thewin.github.io/sierrapodiatry/)
+
+
