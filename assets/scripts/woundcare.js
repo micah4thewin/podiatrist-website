@@ -18,12 +18,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
             toggleLink.addEventListener('click', (event) => {
                 event.preventDefault();
+                const parentContainer = paragraph.closest('.d-flex'); // get the parent container
+
                 if (toggleLink.textContent === 'Read More') {
                     toggleLink.textContent = ' Read Less';
                     paragraph.textContent = originalText + ' ';
                 } else {
                     toggleLink.textContent = 'Read More';
                     paragraph.textContent = trimmedText;
+                }
+
+                // Adjust the container's height
+                if(parentContainer) {
+                    parentContainer.style.height = 'auto';
                 }
                 paragraph.appendChild(toggleLink);
             });
